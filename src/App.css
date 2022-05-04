@@ -1,0 +1,21 @@
+.assumptions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.assumptions-item {
+  min-width: 29px;
+  max-width: 29px;
+  min-height: 29px;
+  max-height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.assumptions-item:hover {
+  border-color: #aaa;
+}
