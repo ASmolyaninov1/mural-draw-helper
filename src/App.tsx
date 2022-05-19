@@ -51,7 +51,6 @@ const App: React.FC = () => {
 
   return (
     <div className={'assumptions'}>
-      kek
       {assumptions.map(assumption => {
         return (
           <div className={'assumptions-item'}>
