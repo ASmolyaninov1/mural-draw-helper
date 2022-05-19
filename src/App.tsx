@@ -20,6 +20,7 @@ const App: React.FC = () => {
   }, [])
 
   const findAssumptedImagesToSelected = async () => {
+    if (!window.muralSdk) return
     const drawingWidgets = await window.muralSdk.sdk.selection.list()
     const coords: { path: string }[] = Object.values(drawingWidgets[0].properties.paths || {})
 
