@@ -1,21 +1,27 @@
 .assumptions {
   display: flex;
   flex-wrap: wrap;
+  padding: 5px;
 }
 
 .assumptions-item {
-  min-width: 29px;
-  max-width: 29px;
-  min-height: 29px;
-  max-height: 29px;
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
   cursor: pointer;
   border: 1px solid transparent;
 }
 
 .assumptions-item:hover {
   border-color: #aaa;
+}
+
+.assumptions-item > img {
+  width: 100%;
 }
